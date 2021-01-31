@@ -1,0 +1,43 @@
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- greet
+- goodbye
+- affirm
+- deny
+- mood_great
+- mood_unhappy
+- bot_challenge
+- watch_video
+- type_video
+- cronaldos
+- messis
+- thanks
+responses:
+  utter_welcome:
+  - text: The pleasure is mine..good bye FAM!!!
+  utter_type_video:
+  - text: i have 2 major videos for now,which includes the best of C ronaldo  and
+      the best of messi ...
+  utter_want:
+  - text: which would you prefer? best of C ronaldo or best of  messi?
+  utter_nothing:
+  - text: ok,sorry to dissapoint you,i have nothing else to offer you,because that
+      was exactly why i was created.goodbye
+  utter_greet:
+  - text: Hi! How are you?,I am a video bot,what video do you want to see please?
+  utter_cheer_up:
+  - image: https://i.imgur.com/nGF1K8f.jpg
+    text: 'Here is something to cheer you up:'
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_happy:
+  - text: Great, carry on!
+  utter_goodbye:
+  - text: Bye
+  utter_iamabot:
+  - text: I am a bot,developed by temitope
+actions:
+- action_video
+- action_video2

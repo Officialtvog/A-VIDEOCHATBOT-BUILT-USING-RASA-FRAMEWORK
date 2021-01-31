@@ -1,0 +1,118 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+    - yes i would
+- intent: deny
+  examples: |
+    - nope
+    - no
+    - i dont think so
+    - na
+    - nothing more
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: type_video
+  examples: |
+    - what type of videos do you have please?
+    - what kind of videos do you have
+    - what vidoes can i watch
+    - please can i get a list of the types of viideeos you have
+    - what vidoes are available?
+
+- intent: cronaldos
+  examples: |
+    - i want to see c ronaldos video please
+    - can i see c ronaldos video please
+    - i prefer c ronaldos skills
+    - i think c ronaldos video will be finer
+
+- intent: messis
+  examples: |
+    - i want to see messis video please
+    - can i see messis video please
+    - i prefer messis skills
+    - i think messis video will be fine
+
+- intent: thanks
+  examples: |
+    - thank you
+    - i am really greatful
+    - thanks alot
+    - i appreciate
